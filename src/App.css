@@ -1,11 +1,10 @@
-
 body {
-  background-color: #f8fafc;
-  font-family: Arial, sans-serif;
+  background-color: #E5EAF5;
+  font-family:  sans-serif;
 }
-h2 {
+h3 {
   text-align: center;
-  color: #0f172a;
+  color:#494D5F;
   font-size: 20px;
   margin-top: 20px;
 }
@@ -23,7 +22,7 @@ form {
 h2 {
   width: 50%;
   color: white;
-  background-color: #1e293b;
+  background-color: #8458B3;
   padding: 8px;
   margin-top: 15px;
   margin-bottom: 30px;
@@ -45,7 +44,7 @@ label {
   width: 40%;
   font-weight: 400; 
   font-size: 13px;   
-  color: #475569;   
+  color: #494D5F;   
 }
 .gender-container {
   font-size: 16px; 
@@ -55,11 +54,11 @@ input,
 select {
   width: 55%;
   padding: 7px 10px;
-  border: 1px solid #cbd5e1;
+  border: 1px solid #A0D2EB;
   border-radius: 5px;
   box-sizing: border-box;
   font-size: 13px;
-  color: #1e293b;
+  color: #494D5F;
 }
 
 
@@ -71,14 +70,14 @@ input[type="checkbox"] {
 label[for="terms"] {
   display: inline;
   font-size: 13px;
-  color: #475569;
+  color: #494D5F;
 }
 
 button {
   width: 30%;
   padding: 10px;
   margin-top: 20px;
-  background-color: #1e293b; 
+  background-color: #8458B3; 
   color: white;
   font-size: 15px;
   border: none;
@@ -86,5 +85,6 @@ button {
 }
 
 button:hover {
-  background-color:rgb(54, 48, 54);
+  background-color:#722fad;
 }
+
