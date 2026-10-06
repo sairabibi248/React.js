@@ -1,10 +1,10 @@
 body {
-  background-color: #E5EAF5;
-  font-family:  sans-serif;
+  background-color: #e5eaf5;
+  font-family: sans-serif;
 }
 h3 {
   text-align: center;
-  color:#494D5F;
+  color: #494d5f;
   font-size: 20px;
   margin-top: 20px;
 }
@@ -22,7 +22,7 @@ form {
 h2 {
   width: 50%;
   color: white;
-  background-color: #8458B3;
+  background-color: #8458b3;
   padding: 8px;
   margin-top: 15px;
   margin-bottom: 30px;
@@ -38,29 +38,27 @@ form > div {
   margin-bottom: 15px;
 }
 
-
 label {
   display: inline-block;
   width: 40%;
-  font-weight: 400; 
-  font-size: 13px;   
-  color: #494D5F;   
+  font-weight: 400;
+  font-size: 13px;
+  color: #494d5f;
 }
 .gender-container {
-  font-size: 16px; 
+  font-size: 16px;
 }
 
 input,
 select {
   width: 55%;
   padding: 7px 10px;
-  border: 1px solid #A0D2EB;
+  border: 1px solid #a0d2eb;
   border-radius: 5px;
   box-sizing: border-box;
   font-size: 13px;
-  color: #494D5F;
+  color: #494d5f;
 }
-
 
 input[type="radio"],
 input[type="checkbox"] {
@@ -70,14 +68,14 @@ input[type="checkbox"] {
 label[for="terms"] {
   display: inline;
   font-size: 13px;
-  color: #494D5F;
+  color: #494d5f;
 }
 
 button {
   width: 30%;
   padding: 10px;
   margin-top: 20px;
-  background-color: #8458B3; 
+  background-color: #8458b3;
   color: white;
   font-size: 15px;
   border: none;
@@ -85,6 +83,5 @@ button {
 }
 
 button:hover {
-  background-color:#722fad;
+  background-color: #722fad;
 }
-

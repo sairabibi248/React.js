@@ -1,5 +1,5 @@
-import React from 'react';
-import AdmissionForm from './Admission-form';
+import React from "react";
+import AdmissionForm from "./Admission-form";
 
 function App() {
   return (
