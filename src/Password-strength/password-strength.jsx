@@ -2,7 +2,7 @@ import React, { useState, useCallback, useEffect, useRef } from "react";
 
 function PasswordStrength() {
   const [length, setLength] = useState(8);
-  const [numberAllowed, setNumberAllowed] = useState(false);
+  const [numberAllowed, setNumberAllowed] = useState(true);
   const [charallowed, setcharAllowed] = useState(false);
   const [password, setPassword] = useState("");
 
@@ -25,7 +25,7 @@ function PasswordStrength() {
 
   const copyPasswordToClipboard = () => {
     passwordRef.current?.select();
-    passwordRef.current?.setSelectionRange(0, 5);
+
     window.navigator.clipboard.writeText(password);
   };
 
