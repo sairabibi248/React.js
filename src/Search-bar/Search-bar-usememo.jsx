@@ -5,7 +5,7 @@ function BotSearch() {
   const [searchBot, setBot] = useState("");
   const bots = ["Gemini", "ChatGPT", "Claude", "DeepSeek", "GenAI"];
 
-  const filteredbots = useMemo(() => {
+  const filterbots = useMemo(() => {
     return bots.filter((bots) =>
       bots.toLowerCase().includes(searchBot.toLowerCase()),
     );
@@ -24,8 +24,8 @@ function BotSearch() {
       />
 
       <ul className="bot-list">
-        {filteredbots.length > 0 ? (
-          filteredbots.map((Bots, index) => (
+        {filterbots.length > 0 ? (
+          filterbots.map((Bots, index) => (
             <li key={index} className="bot-item">
               {Bots}{" "}
             </li>

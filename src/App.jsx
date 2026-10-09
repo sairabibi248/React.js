@@ -44,7 +44,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="home-buttons">
         <button onClick={() => setActivePage("admission")}>
           Student Admission Form
         </button>
