@@ -115,7 +115,13 @@ button:hover {
 }
 
 .btn:hover {
-  transition:0.3s ease;
+  transition: 0.3s ease;
   transform: scale(1.08);
   opacity: 0.8;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
 }
