@@ -25,11 +25,12 @@ function BotSearch() {
 
       <ul className="bot-list">
         {filterbots.length > 0 ? (
-          filterbots.map((Bots, index) => (
+          filterbots.map((bots, index) => (
             <li key={index} className="bot-item">
-              {Bots}{" "}
+              {bots}{" "}
             </li>
           ))
+        
         ) : (
           <p>No results match your search!</p>
         )}
