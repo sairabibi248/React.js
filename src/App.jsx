@@ -3,6 +3,9 @@ import AdmissionForm from "./Admission-form";
 import PasswordStrength from "./Password-strength/password-strength";
 import BackgroundSwitcher from "./Background-switcher/background-switcher";
 import BotSearch from "./Search-bar/Search-bar-usememo";
+import CurrencyConverter from "./currency-converter/CurrencyConverter";
+
+
 function App() {
   const [activePage, setActivePage] = useState("home");
 
@@ -42,6 +45,15 @@ function App() {
     );
   }
 
+   if (activePage === "CurrencyConverter") {
+    return (
+      <div>
+        <button onClick={() => setActivePage("home")}>← Back</button>
+        <CurrencyConverter />
+      </div>
+    );
+  }
+
   return (
     <>
       <div className="home-buttons">
@@ -59,6 +71,10 @@ function App() {
 
         <button onClick={() => setActivePage("botsearch")}>
           AIBots Search Bar
+        </button>
+
+        <button onClick={() => setActivePage("CurrencyConverter")}>
+         Currency Converter
         </button>
       </div>
     </>
