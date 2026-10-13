@@ -9,14 +9,13 @@ function useCurrencyInfo(currency) {
     )
       .then((res) => res.json())
       .then((res) => setData(res[currency]))
-
       .catch((error) => {
         console.error("Error fetching currency data", error);
         setData({});
       });
   }, [currency]);
 
-  console.log(data);
   return data;
 }
+
 export default useCurrencyInfo;
