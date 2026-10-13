@@ -1,12 +1,14 @@
 import {useState} from "react";
-
+import useCurrencyInfo from "../hooks/useCurrencyInfo";
+  
 function CurrencyConverter() {
+  const currencyInfo = useCurrencyInfo("usd");
   return (
     <>
     <div>
-      <h3 classname="title"> Currency Converter</h3>
+      <h3 className="title"> Currency Converter</h3>
 
-      
+     
      
 
     </div>
