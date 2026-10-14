@@ -1,9 +1,11 @@
-import React, { useState } from "react";
-import InputBox from "./InputBox";
-import useCurrencyInfo from "../hooks/useCurrencyInfo";
+import React from "react";
 
 function CurrencyConverter() {
-  
+  return (
+    <div>
+      <h3>Currency Converter </h3>
+    </div>
+  );
 }
 
 export default CurrencyConverter;
